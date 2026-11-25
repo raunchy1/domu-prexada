@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Domu Prexada · B&amp;B e casa vacanze con piscina · Maracalagonis, Sardegna</title>
+<meta name="description" content="Domu Prexada, «la casa felice» in sardo: B&amp;B e casa vacanze fino a 14 persone con piscina e giardino di 3.000 m², a Maracalagonis, 30 minuti da Cagliari.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#4C6F50">
+<link rel="icon" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<a class="skip" href="#prenota">Vai alla prenotazione</a>
+
+<header class="top" id="top">
+  <div class="top__in">
+    <a class="brand" href="#top" aria-label="Domu Prexada, torna su">
+      <img src="img/logo-160.webp" srcset="img/logo-160.webp 160w, img/logo-320.webp 320w" sizes="64px" width="64" height="64" alt="Logo Domu Prexada">
+      <span class="brand__name">Domu Prexada</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Menu principale">
+      <a href="#soggiorni">Soggiorni</a>
+      <a href="#camere">Camere B&amp;B</a>
+      <a href="#casa">Casa intera</a>
+      <a href="#esperienze">Esperienze</a>
+      <a href="#dove">Dove siamo</a>
+    </nav>
+    <a class="btn btn--sm top__book" href="#prenota">Prenota</a>
+    <button class="burger" id="burger" aria-label="Apri il menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO + PRENOTAZIONE IN PRIMA POSIZIONE -->
+  <section class="hero" aria-label="Benvenuti">
+    <picture>
+      <source media="(max-width: 640px)" srcset="img/hero-phone-480.webp 480w, img/hero-phone-640.webp 640w" sizes="100vw">
+      <img class="hero__img" src="img/gal1-0-1200.webp" width="1200" height="800" alt="La casa bianca di Domu Prexada con la piscina e il giardino" fetchpriority="high">
+    </picture>
+    <div class="hero__text">
+      <p class="hero__kicker">B&amp;B · Casa vacanze · Ritiri</p>
+      <h1>la casa felice</h1>
+      <p class="hero__sub">Una casa di campagna con piscina, a 30 minuti da Cagliari</p>
+    </div>
+  </section>
+
+  <section class="book" id="prenota" aria-labelledby="book-title">
+    <form class="book__card" id="book-form" method="post" target="_blank"
+          action="https://booking.ireservation.it/it/sardegna/domu-prexada-maracalagonis/56631?l=it&amp;utm_source=widget&amp;wl=1">
+      <h2 id="book-title" class="book__title">Prenota il tuo soggiorno</h2>
+      <div class="book__fields">
+        <label class="field">
+          <span>Arrivo</span>
+          <input type="date" id="book-in" required>
+        </label>
+        <label class="field">
+          <span>Partenza</span>
+          <input type="date" id="book-out" required>
+        </label>
+        <input type="hidden" name="checkIn" id="ir-in">
+        <input type="hidden" name="checkOut" id="ir-out">
+        <button class="btn btn--book" type="submit">Verifica disponibilità</button>
+      </div>
+      <p class="book__note">Calendario e prezzi in tempo reale · oppure <a href="https://wa.me/393426022719?text=Buongiorno%20Geraldine%2C%20vorrei%20chiedere%20la%20disponibilit%C3%A0%20di%20Domu%20Prexada.%0AArrivo%3A%0APartenza%3A%0APersone%3A" target="_blank" rel="noopener">scrivi a Geraldine su WhatsApp</a></p>
+    </form>
+  </section>
+
+  <!-- DUE MODI DI SOGGIORNARE -->
+  <section class="section" id="soggiorni" aria-labelledby="sogg-title">
+    <div class="wrap">
+      <p class="eyebrow">Come soggiornare</p>
+      <h2 class="script" id="sogg-title">Due modi di stare da noi</h2>
+      <div class="ways">
+        <a class="way" href="#camere">
+          <img src="img/g-c4-0-800.webp" width="800" height="533" loading="lazy" alt="Camera del B&amp;B con letto matrimoniale">
+          <div class="way__body">
+            <h3>Una camera nel B&amp;B</h3>
+            <p>Quattro camere con bagno privato e ingresso dalla terrazza. Colazione in giardino, piscina per tutti.</p>
+            <span class="link">Vedi le camere →</span>
+          </div>
+        </a>
+        <a class="way" href="#casa">
+          <img src="img/gal1-1-800.webp" width="800" height="533" loading="lazy" alt="Terrazza ombreggiata della casa con tavolo e sedie">
+          <div class="way__body">
+            <h3>Tutta la casa</h3>
+            <p>Villa di 400 m² fino a 14 persone: cinque camere, grande cucina, salone di 90 m², piscina e giardino solo per voi.</p>
+            <span class="link">Vedi la casa →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LA STORIA -->
+  <section class="section section--linen story" aria-labelledby="story-title">
+    <div class="wrap story__grid">
+      <figure class="story__img">
+        <img src="img/story.webp" width="800" height="1000" loading="lazy" alt="La grande cucina con l'isola centrale in legno">
+      </figure>
+      <div class="story__text">
+        <p class="eyebrow">Domu Prexada, dal 2019</p>
+        <h2 class="script" id="story-title">Benvenuti a casa</h2>
+        <p class="lead">«Domu Prexada» in sardo vuol dire <em>la casa felice</em>.</p>
+        <p>È la casa di campagna che Geraldine ha aperto agli ospiti nel 2019, nel cuore dei Monti dei Sette Fratelli. Chi vuole stare insieme si ritrova in cucina, attorno all'isola centrale. Chi cerca silenzio ha la sua camera, il suo bagno e la sua terrazza.</p>
+        <p>Quasi tutti i mobili vengono dai mercatini o sono fatti a mano, secondo le tre R: riciclare, riutilizzare, ridurre. Non c'è la TV: c'è il giardino, il canto degli uccelli e un grande barbecue.</p>
+        <p class="sign">Geraldine</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAMERE B&B -->
+  <section class="section" id="camere" aria-labelledby="rooms-title">
+    <div class="wrap">
+      <p class="eyebrow">Bed &amp; Breakfast</p>
+      <h2 class="script" id="rooms-title">Le camere</h2>
+      <p class="intro">Tutte con bagno privato e doccia, aria condizionata calda e fredda e ingresso indipendente dalla terrazza.</p>
+
+      <div class="rooms">
+        <article class="room">
+          <button class="room__photo" data-gallery="c1" aria-label="Apri le foto della Camera familiare deluxe">
+            <img src="img/g-c1-0-800.webp" width="800" height="533" loading="lazy" alt="Camera familiare deluxe">
+            <span class="room__count">8 foto</span>
+          </button>
+          <h3>Camera familiare deluxe</h3>
+          <p class="room__facts">17 m² · matrimoniale + singolo · terrazza a est</p>
+          <p>Ispirazione mediterranea, tessuti indiani e africani, il blu dominante. Bagno di 6 m² con doccia idromassaggio.</p>
+          <div class="room__cta"><button class="link" data-gallery="c1">Tutte le foto</button><a class="link" href="#prenota">Prenota →</a></div>
+        </article>
+        <article class="room">
+          <button class="room__photo" data-gallery="c2" aria-label="Apri le foto della Camera matrimoniale">
+            <img src="img/g-c2-0-800.webp" width="800" height="533" loading="lazy" alt="Camera matrimoniale">
+            <span class="room__count">6 foto</span>
+          </button>
+          <h3>Camera matrimoniale</h3>
+          <p class="room__facts">14 m² · matrimoniale · terrazza a sud</p>
+          <p>La più artistica: marrone caldo, lampade di fantasia, oggetti di recupero e un quadro di Federico Crisà.</p>
+          <div class="room__cta"><button class="link" data-gallery="c2">Tutte le foto</button><a class="link" href="#prenota">Prenota →</a></div>
+        </article>
+        <article class="room">
+          <button class="room__photo" data-gallery="c3" aria-label="Apri le foto della Camera matrimoniale deluxe">
+            <img src="img/g-c3-0-800.webp" width="800" height="533" loading="lazy" alt="Camera matrimoniale deluxe">
+            <span class="room__count">8 foto</span>
+          </button>
+          <h3>Camera matrimoniale deluxe</h3>
+          <p class="room__facts">14 m² · matrimoniale · terrazza a sud</p>
+          <p>La più raffinata: colori teneri tra il viola e il verde, pezzi scelti all'antiquariato o in viaggio.</p>
+          <div class="room__cta"><button class="link" data-gallery="c3">Tutte le foto</button><a class="link" href="#prenota">Prenota →</a></div>
+        </article>
+        <article class="room">
+          <button class="room__photo" data-gallery="c4" aria-label="Apri le foto della Camera tripla o quadrupla">
+            <img src="img/g-c4-0-800.webp" width="800" height="533" loading="lazy" alt="Camera tripla o quadrupla">
+            <span class="room__count">8 foto</span>
+          </button>
+          <h3>Camera tripla o quadrupla</h3>
+          <p class="room__facts">20 m² · fino a 4 persone · terrazza a ovest</p>
+          <p>La più spaziosa: matrimoniale, un singolo e una culla o due singoli. D'inverno c'è il camino.</p>
+          <div class="room__cta"><button class="link" data-gallery="c4">Tutte le foto</button><a class="link" href="#prenota">Prenota →</a></div>
+        </article>
+      </div>
+
+      <ul class="perks">
+        <li><strong>Colazione</strong> in giardino o sotto le terrazze</li>
+        <li><strong>Piscina</strong> con lettini, ombrelloni e amaca</li>
+        <li><strong>Bambini</strong>: culla, seggiolone e vaschetta</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- BANDA GIARDINO -->
+  <section class="band" aria-label="Il giardino e la piscina">
+    <img src="img/gal1-4-1200.webp" width="1200" height="800" loading="lazy" alt="Lettini e ombrellone in giardino">
+    <div class="band__text">
+      <p class="script script--light">il giardino</p>
+      <p>3.000 m² di natura · piscina 11 × 5 m · amaca, lettini, barbecue</p>
+    </div>
+  </section>
+
+  <!-- CASA INTERA -->
+  <section class="section section--linen" id="casa" aria-labelledby="casa-title">
+    <div class="wrap casa">
+      <div class="casa__text">
+        <p class="eyebrow">Casa vacanze</p>
+        <h2 class="script" id="casa-title">Tutta la casa per voi</h2>
+        <p class="lead">400 m² per la famiglia e gli amici, fino a 14 persone.</p>
+        <p>Una grande cucina attrezzata per cucinare insieme, con l'isola centrale. Un salone di 90 m². Attorno alla casa, le camere con bagno privato: essere insieme e indipendenti, il vero lusso dello spazio.</p>
+        <p>Fuori: piscina di 11 × 5 m, due terrazze ombreggiate con tavolo e divani, amaca e un grande barbecue. In giardino vivono tre gatti: autonomi per il cibo, non per le coccole.</p>
+        <ul class="beds">
+          <li><span>Camera 1</span>matrimoniale + singolo · bagno privato</li>
+          <li><span>Camera 2</span>matrimoniale · bagno privato</li>
+          <li><span>Camera 3</span>matrimoniale · bagno privato</li>
+          <li><span>Camera 4</span>matrimoniale + 2 singoli · bagno privato</li>
+          <li><span>Camera 5</span>matrimoniale + singolo · bagno condiviso</li>
+        </ul>
+        <div class="row">
+          <a class="btn" href="#prenota">Verifica le date</a>
+          <button class="btn btn--ghost" data-gallery="casa">Foto della casa (10)</button>
+        </div>
+      </div>
+      <div class="casa__photos">
+        <img src="img/casa-tall-800.webp" width="800" height="1000" loading="lazy" alt="Lettini in giardino all'ombra degli alberi">
+        <img src="img/gal1-9-800.webp" width="800" height="533" loading="lazy" alt="La cucina con l'isola centrale">
+        <img src="img/gal1-3-800.webp" width="800" height="533" loading="lazy" alt="Terrazza con divani in legno">
+      </div>
+    </div>
+  </section>
+
+  <!-- ESPERIENZE ED EVENTI -->
+  <section class="section" id="esperienze" aria-labelledby="exp-title">
+    <div class="wrap">
+      <p class="eyebrow">Esperienze ed eventi</p>
+      <h2 class="script" id="exp-title">Vivere la Sardegna</h2>
+      <div class="exp">
+        <article>
+          <img src="img/gal3-4-800.webp" width="800" height="533" loading="lazy" alt="Tramonto in barca a vela">
+          <h3>In barca a vela</h3>
+          <p>Uscite con Andrea di <a href="https://www.solejasail.com/" target="_blank" rel="noopener">Soleja Sail</a>, da Marina di Capitana.</p>
+        </article>
+        <article>
+          <img src="img/gal3-3-800.webp" width="800" height="533" loading="lazy" alt="Due ospiti in e-bike tra le rocce">
+          <h3>In e-bike</h3>
+          <p>Bici elettriche a noleggio, con o senza guida, nel Parco dei Sette Fratelli.</p>
+        </article>
+        <article>
+          <img src="img/retreat-1067.webp" width="1067" height="711" loading="lazy" alt="Il grande salone luminoso della casa">
+          <h3>Ritiri, corsi ed eventi</h3>
+          <p>Il salone, la cucina e l'arena davanti alla piscina per yoga, workshop, concerti e team building.</p>
+        </article>
+      </div>
+      <p class="center"><a class="btn btn--ghost" href="mailto:Domuprexada@gmail.com?subject=Evento%20o%20ritiro%20a%20Domu%20Prexada">Raccontaci il tuo progetto</a></p>
+    </div>
+  </section>
+
+  <!-- RECENSIONI -->
+  <section class="section section--sage" aria-labelledby="rev-title">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--light">Recensioni Google</p>
+      <h2 class="script script--light" id="rev-title">4,8 su 5 da 108 ospiti</h2>
+      <div class="quotes">
+        <blockquote><p>«Un luogo speciale, un'ospitalità che resta nel cuore.»</p><cite>Marco Brian Vestrucci</cite></blockquote>
+        <blockquote><p>«Sono stata a Domu Prexada per un ritiro di 4 giorni e ho amato la tranquillità e il silenzio, sentirmi avvolta dalla natura.»</p><cite>Valentina Pia</cite></blockquote>
+        <blockquote><p>«Un posto veramente mantenuto molto bene, dove Geraldine ti riceve con molta gentilezza.»</p><cite>Andreina Acri</cite></blockquote>
+      </div>
+      <p class="center"><a class="link link--light" href="https://maps.google.com/?cid=16218105087306768503" target="_blank" rel="noopener">Leggi tutte le recensioni su Google →</a></p>
+    </div>
+  </section>
+
+  <!-- DOVE SIAMO -->
+  <section class="section" id="dove" aria-labelledby="dove-title">
+    <div class="wrap dove">
+      <div>
+        <p class="eyebrow">Dove siamo</p>
+        <h2 class="script" id="dove-title">Maracalagonis</h2>
+        <p class="lead">Via della Beccaccia 9, 09040 Maracalagonis (CA)</p>
+        <p>Nel verde dei Monti dei Sette Fratelli, a mezz'ora da Cagliari e dall'aeroporto, vicino alle spiagge di Costa Rei e Villasimius.</p>
+        <a class="btn btn--ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=Via+della+Beccaccia+9%2C+09040+Maracalagonis+CA%2C+Italia" target="_blank" rel="noopener">Indicazioni stradali</a>
+      </div>
+      <ul class="dist">
+        <li><span>Cascata di San Pietro Paradiso</span><b>4 km</b></li>
+        <li><span>Tomba dei giganti Is Concias</span><b>5 km</b></li>
+        <li><span>Parco dei Sette Fratelli</span><b>12 km</b></li>
+        <li><span>Cagliari e aeroporto</span><b>30 min</b></li>
+        <li><span>Costa Rei e Villasimius</span><b>20–40 min</b></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA FINALE -->
+  <section class="final" aria-labelledby="final-title">
+    <img src="img/gal1-7-800.webp" width="800" height="533" loading="lazy" alt="" aria-hidden="true">
+    <div class="final__in">
+      <h2 class="script" id="final-title">Vi aspettiamo</h2>
+      <p>Scegliete le date: la disponibilità si vede subito nel calendario.</p>
+      <div class="row row--center">
+        <a class="btn" href="#prenota">Prenota ora</a>
+        <a class="btn btn--ghost" href="https://wa.me/393426022719" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div>
+      <p class="script script--light foot__brand">Domu Prexada</p>
+      <p>«La casa felice» in sardo.</p>
+    </div>
+    <div>
+      <p class="foot__h">Contatti</p>
+      <p><a href="https://wa.me/393426022719" target="_blank" rel="noopener">WhatsApp +39 342 602 2719</a><br>
+      <a href="mailto:Domuprexada@gmail.com">Domuprexada@gmail.com</a></p>
+    </div>
+    <div>
+      <p class="foot__h">Seguici</p>
+      <p><a href="https://www.instagram.com/domuprexada/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/DomuPrexada" target="_blank" rel="noopener">Facebook</a> · <a href="https://maps.google.com/?cid=16218105087306768503" target="_blank" rel="noopener">Google</a></p>
+    </div>
+  </div>
+  <p class="foot__legal">© 2026 Domu Prexada · Via della Beccaccia 9, Maracalagonis (CA) · CIN IT092037C1000E7299 · IUN E7299</p>
+</footer>
+
+<!-- barra prenotazione sempre visibile su telefono -->
+<div class="stick" id="stick">
+  <a class="btn btn--book" href="#prenota">Verifica disponibilità</a>
+  <a class="stick__wa" href="https://wa.me/393426022719" target="_blank" rel="noopener" aria-label="Scrivi su WhatsApp">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z"/></svg>
+  </a>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Galleria foto" hidden>
+  <button class="lb__close" id="lb-close" aria-label="Chiudi">×</button>
+  <button class="lb__nav lb__prev" id="lb-prev" aria-label="Foto precedente">‹</button>
+  <img id="lb-img" alt="">
+  <button class="lb__nav lb__next" id="lb-next" aria-label="Foto successiva">›</button>
+  <p class="lb__count" id="lb-count"></p>
+</div>
+
+<script src="app.js?v=1"></script>
+</body>
+</html>
